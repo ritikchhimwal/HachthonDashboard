@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/program.css";
 import robot from "../assets/icons/Robot.svg";
-import identity from "../assets/icons/identificationCard.svg";
+import identity from "../assets/icons/IdentificationCard.svg";
 import vector from "../assets/icons/Vector.svg";
 import notebook from "../assets/icons/carbon_notebook-reference.svg";
 
