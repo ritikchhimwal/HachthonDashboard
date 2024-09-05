@@ -1,0 +1,132 @@
+/* Style for the container */
+.explorechallenges {
+    margin-top: 50px;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #002A3B;
+    padding: 0 20px;
+}
+
+h2 {
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.search-container {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 900px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .filter-container {
+    position: relative;
+  }
+  
+  .filter-button {
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    z-index: 1000;
+  }
+  
+  .dropdown-section {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-section h4 {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .dropdown-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dropdown-section ul li {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .dropdown-section ul li label {
+    cursor: pointer;
+  }
+  
+  .filter-item {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .selected-option {
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+    background-color: #F8F9FD;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .remove-option {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #9eaff5;
+    font-size: 10px;
+  }
+  
+  

@@ -1,0 +1,91 @@
+.challengedetail{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper{
+    padding: 60px 90px;
+    height: 45vh ;
+    width: 100%;
+    background-color: #002A3B !important;
+
+    button{
+        background-color: #FFCE5C;
+        border: none;
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        cursor: none;
+        margin-bottom: 20px;
+    }
+    h1{
+        color: #FFFFFF;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    p{
+        color: #f0f0f0;
+        margin-bottom: 20px;
+    }
+    h4{
+        color: #002A3B;
+        background: #FFFFFF;
+        width: fit-content;
+        padding: 5px 20px;
+        border-radius: 5px;
+        font-weight: 400;
+        height: fit-content;
+    }
+}
+
+.lower{
+    height: 45vh;
+    width: 100%;
+
+    p{
+        width: 70%;
+        padding-top: 40px;
+        padding-left: 120px;
+    }
+}
+.overview{
+    min-height: calc(45vh - 260px);
+    background-color:#f0f0f0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    h3{
+        font-weight: 500;
+    }
+}
+
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+
+.edit{
+    padding: 5px 15px;
+    background-color: green;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete{
+    padding: 5px 15px;
+    border-color: rgb(252, 104, 104) ;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+
+
