@@ -12,7 +12,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="https://main--aiplanethachathon.netlify.app/challengeform" element={<ChallengeForm />} />
+          <Route path="/challengeform" element={<ChallengeForm />} />
           <Route path="/challengedetail" element={<ChallengeDetail />} />
           <Route path="/editchallenge/:id" element={<EditChallenge />} />
         </Routes>
