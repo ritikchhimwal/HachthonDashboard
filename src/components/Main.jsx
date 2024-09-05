@@ -29,7 +29,7 @@ const Main = () => {
               <br /> diverse datasets allowing you to foster learning through
               competitions.
             </p>
-            <button><a href="/challengeform">Create Challenge</a></button>
+            <button><a href="https://main--aiplanethachathon.netlify.app/challengeform">Create Challenge</a></button>
           </div>
           <div className="right">
             <img src={picsart} />
